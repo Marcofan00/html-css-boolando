@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-top: 5px;
     box-sizing: border-box;
 }
@@ -10,49 +10,51 @@
     display: table;
     clear: both;
 }
-
+/* prodotti */
 .prodotti{
     float: left;
     width: calc(100% / 3);
     position: relative;
     cursor: pointer;
 }
-
-.prodotti img{
+/* img primo piano */
+.primaimg{
     height: 450px;
 
 }
-.prodotti img:hover{
+/* img secondaria */
+.secondaimg{
+    height: 450px;
     display: none;
     
 }
-.hoover1{
+.hover:hover .primaimg{
     display: none;
 }
-.hoover1:hover{
-    display: block;
+.hover:hover .secondaimg{ 
+    display:block;
 }
-
+/* cuore */
 .cuore{
     position:relative;
     bottom: 10px;
     width: 100%;
-    right: 35px;
+    right: -300px;
     text-align: center;
     top: -410px;
     padding:10px;
     background-color: white;
 }
-
+/* prezzo scontato */
 .prezzo-scontato{
     color: red;
 }
-
+/* prezzo iniziale */
 .prezzo{
     color: black;
     text-decoration: line-through;
 }
-
+/* sconto */
 .discount{
     padding: 5px;
     font-size: 10px;
@@ -80,5 +82,5 @@
     color: white;
     position:absolute;
     top: 410px;
-    right: 370px;
+    right: 360px;
 }
