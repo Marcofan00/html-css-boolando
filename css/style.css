@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.prodotti{
+    float: left;
+    width: calc(100% / 3);
+    position: relative;
+    cursor: pointer;
+}
+
+.prodotti img{
+    height: 450px;
+
+}
+.prodotti img:hover{
+    display: none;
+    
+}
+.hoover1{
+    display: none;
+}
+.hoover1:hover{
+    display: block;
+}
+
+.cuore{
+    position:relative;
+    bottom: 10px;
+    width: 100%;
+    right: 35px;
+    text-align: center;
+    top: -410px;
+    padding:10px;
+    background-color: white;
+}
+
+.prezzo-scontato{
+    color: red;
+}
+
+.prezzo{
+    color: black;
+    text-decoration: line-through;
+}
+
+.discount{
+    padding: 5px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 410px;
+    right: 390px;
+}
+
+.sostenibilita{
+    padding: 5px;
+    font-size: 10px;
+    background-color:green;
+    color: white;
+    position:absolute;
+    top: 410px;
+    right: 325px;
+}
+
+.sostenibilita2{
+    padding: 5px;
+    font-size: 10px;
+    background-color:green;
+    color: white;
+    position:absolute;
+    top: 410px;
+    right: 370px;
+}
