@@ -9,6 +9,7 @@
     content: "";
     display: table;
     clear: both;
+    margin-bottom: 30px;
 }
 /* prodotti */
 .prodotti{
@@ -45,6 +46,12 @@
     padding:10px;
     background-color: white;
 }
+
+.descrizione{
+    margin:-30px;
+    margin-left: 0px;
+}
+
 /* prezzo scontato */
 .prezzo-scontato{
     color: red;
